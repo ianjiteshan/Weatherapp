@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple weather app providing current weather and forecast data">
+    <meta name="keywords" content="Weather, Forecast, City, Temperature, Climate">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./stylexo.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="weather-container">
+        <h2>Weather App</h2>
+        <label for="city" id="city-label">Enter city:</label>
+        <input type="text" id="city" placeholder="Enter city" aria-labelledby="city-label" autocomplete="off">
+        <button onclick="getWeather()" id="search-btn" aria-label="Search Weather">Search</button>
+
+        <div id="loading" style="display: none;" aria-live="polite">Loading...</div>
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div" aria-live="polite"></div>
+
+        <div id="weather-info" aria-live="polite"></div>
+
+        <div id="hourly-forecast" aria-label="Hourly Weather Forecast"></div>
+    </div>
+    <script src="scriptxo.js"></script>
+</body>
+</html>
