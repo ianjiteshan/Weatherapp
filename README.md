@@ -11,6 +11,7 @@ A simple and elegant Weather App built with HTML, CSS, and JavaScript. It fetche
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [How to Run Locally](#how-to-run-locally)
+- [How to Deploy](#Deployment)
 - [API Integration](#api-integration)
 - [Improvements](#improvements)
 - [License](#license)
@@ -78,6 +79,56 @@ To run this project on your local machine, follow these simple steps:
 
 5. Search for any city to see the current weather and the hourly forecast!
 
+Here’s the **Deployment** part to add to your existing README.md file:
+
+---
+
+## Deployment
+
+### Deploying on [Railway.app](https://railway.app)
+
+To deploy the Weather App on [Railway.app](https://railway.app), follow these steps:
+
+1. **Sign Up/Log In to Railway**  
+   - Go to [Railway.app](https://railway.app) and sign up (or log in if you already have an account).
+
+2. **Create a New Project**
+   - Click **New Project** on the dashboard.
+   - Select **Deploy from GitHub Repo**. You will be prompted to connect your GitHub account if you haven't done so.
+
+3. **Connect Your GitHub Repository**
+   - Select your GitHub repository that contains the Weather App code. 
+   - If you haven't pushed your project to GitHub, do so using the following commands:
+     ```bash
+     git init
+     git add .
+     git commit -m "Initial commit"
+     git remote add origin https://github.com/your-username/weather-app.git
+     git push -u origin main
+     ```
+
+4. **Configure Static Site Deployment**
+   - Go to **Settings** in your Railway project.
+   - Under the "Static Site" settings:
+     - **Build Command**: Leave this blank since it's a static site.
+     - **Start Command**: No start command needed for a static site.
+     - **Output Directory**: Set to `/` (root directory).
+
+5. **Set Environment Variables (Optional)**
+   - If you're using API keys, go to **Variables** in Railway and add your API key:
+     - Key: `API_KEY`
+     - Value: `your-openweathermap-api-key`
+
+6. **Deploy**
+   - Click the **Deploy** button, and Railway will deploy your Weather App.
+   - After deployment, Railway will provide a live URL for your app.
+
+7. **Access Your App**
+   - Visit your deployed Weather App at the provided Railway URL.
+
+---
+
+Add this section to your README.md after the **Technologies Used** or **How to Run Locally** section.
 ## API Integration
 
 This app integrates the OpenWeatherMap API to fetch weather data. Here’s how it works:
