@@ -27,15 +27,14 @@ A simple and elegant Weather App built with HTML, CSS, and JavaScript. It fetche
 ## Screenshots
 
 ### Home Page:
-![Weather App Home](./screenshots/home.png)
+![Weather App Home](<img width="1678" alt="Home" src="https://github.com/user-attachments/assets/3095e205-cc9b-45ad-a38e-6bce411e8f2f">)
 
-### Search Results:
-![Weather App Search Results](./screenshots/search-results.png)
+### Searching:
+![Weather App Searching ](<img width="1680" alt="Searching" src="https://github.com/user-attachments/assets/aa9088c9-6913-4621-b00b-0ea5d3e6c9a2">
+)
 
-### Hourly Forecast:
-![Weather App Hourly Forecast](./screenshots/hourly-forecast.png)
-
-(You can replace these screenshots with actual links/images of your app in action)
+### Results+Hourly Forecast:
+![Weather App Hourly Forecast](<img width="1677" alt="Hourly+search" src="https://github.com/user-attachments/assets/8729f6c1-7f76-4295-bcd5-b02cf9585212">)
 
 ## Demo
 
